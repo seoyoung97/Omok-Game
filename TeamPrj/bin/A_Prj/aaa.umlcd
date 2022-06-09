@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_KwedgKKcEeyEXbnuiTJFeg">
+  <modelElement href="aaa.uml#_K_bfgKKcEeyEXbnuiTJFeg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_PTbEQKKcEeyEXbnuiTJFeg" targetItem="_PTiZAKKcEeyEXbnuiTJFeg" sourceItem="_PTZ2IKKcEeyEXbnuiTJFeg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PVxNoKKcEeyEXbnuiTJFeg" sourceAnchor="192.0,0.0" targetAnchor="49.0,65.0" target="_PU_KgKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC6RUKKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWFWsKKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC64YKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWDhgKKcEeyEXbnuiTJFeg" text="">
+      <visualProperties xmi:id="_Pn11EKKcEeyEXbnuiTJFeg" position="-48.00000000000003,-18.80000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PWEvoKKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC6RUaKcEeyEXbnuiTJFeg"/>
+      <visualProperties xmi:id="_Pn1OAKKcEeyEXbnuiTJFeg" position="41.0,-56.0"/>
+      <visibility xmi:id="_PWPuwKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWPHsKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWEvoaKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="t" navigable="true">
+      <modelElement href="aaa.uml#_LCeMcKKcEeyEXbnuiTJFeg"/>
+      <visualProperties xmi:id="_Pn2cIKKcEeyEXbnuiTJFeg" position="2.0,16.0"/>
+      <visibility xmi:id="_PWPuwqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWPuwaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWFWsaKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC7fcaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWPuxqKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC8tkKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWPuw6KcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWPuxKKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC7fcqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj8aKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWRj8KKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWPuxaKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="img" navigable="true">
+      <modelElement href="aaa.uml#_LCezgaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj86KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWRj8qKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWHy8KKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC8tkaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWQV0KKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC9UoKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWPux6KcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWPuyKKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC8tkqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj9aKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWRj9KKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWPuyaKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="logo" navigable="true">
+      <modelElement href="aaa.uml#_LCgBoKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj96KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWRj9qKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWK2QKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC9UoaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWQV1KKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC97sKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWQV0aKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWQV0qKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC9UoqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj-aKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWRj-KKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWQV06KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="player1" navigable="true">
+      <modelElement href="aaa.uml#_LCgBoqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWRj-6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWRj-qKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWLdUKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC97saKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWQV2KKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC-iwKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWQV1aKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWQV1qKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC97sqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSLAaKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWSLAKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWQV16KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="player2" navigable="true">
+      <modelElement href="aaa.uml#_LCgosKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSLA6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWSLAqKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWMEYKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC-iwaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWQ84aKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC_J0KKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWQV2aKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWQV2qKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC-iwqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSLBaKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWSLBKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWQ84KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="player3" navigable="true">
+      <modelElement href="aaa.uml#_LCgosaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSLB6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWSLBqKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWMEYaKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC_J0aKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWQ85aKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC_J06KcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWQ84qKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWQ846KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC_J0qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSyEKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWSLCKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWQ85KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="beforeTurn" navigable="true">
+      <modelElement href="aaa.uml#_LCgosqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWSyEqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWSyEaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWUAMKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC64YaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWUAMaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC7fcKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWUAMqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWUAM6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC64YqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWUANKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWUANaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWUANqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="omok" navigable="true">
+      <modelElement href="aaa.uml#_LCeMcqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWUAN6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWUAOKKcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWUnQKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC_J1KKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWUnQaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LC_w4KKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWUnQqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWUnQ6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC_J1aKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWUnRKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWUnRaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWUnRqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="pnNorth" navigable="true">
+      <modelElement href="aaa.uml#_LChPwKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWUnR6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWUnSKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWVOUKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC_w4aKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWVOUaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDAX8KKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWVOUqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWVOU6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LC_w4qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWVOVKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWVOVaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWVOVqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="lbMin" navigable="true">
+      <modelElement href="aaa.uml#_LChPwqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWVOV6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWVOWKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWV1YKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDAX8aKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWV1YaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDA_AKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWV1YqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWV1Y6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDAX8qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWV1ZKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWV1ZaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWV1ZqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="lb" navigable="true">
+      <modelElement href="aaa.uml#_LCh20KKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWV1Z6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWV1aKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWWccKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDA_AaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWWccaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDBmEKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWWccqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWWcc6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDA_AqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWWcdKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWWcdaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWWcdqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="lbSec" navigable="true">
+      <modelElement href="aaa.uml#_LCh20qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWWcd6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWWceKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWXDgKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDBmEaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWXDgaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDCNIKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWXDgqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWXDg6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDBmEqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWXDhKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWXDhaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWXDhqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="lb2" navigable="true">
+      <modelElement href="aaa.uml#_LCid4aKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWXDh6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWXDiKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PWYRoKKcEeyEXbnuiTJFeg" source="_PWYRqaKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDCNIaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PWYRoaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDC0MKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PWYRoqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PWYRo6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDCNIqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRpKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWYRpaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PWYRpqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="lbIn30" navigable="true">
+      <modelElement href="aaa.uml#_LCjE8qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRp6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRqKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PXY-QKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDC0MaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PXym4qKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDC0M6KcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXx_0KKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PXym4KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDC0MqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PXz1AqKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PXz1AaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXym4aKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="img1" navigable="true">
+      <modelElement href="aaa.uml#_LCkTEKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PXz1BKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PXz1A6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PXuVcKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDC0NKKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PXzN8aKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDDbQKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXym46KcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PXym5KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDC0NaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PXz1BqKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PXz1BaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXzN8KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="img2" navigable="true">
+      <modelElement href="aaa.uml#_LCk6IaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PXz1CKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PXz1B6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PXu8gKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDDbQaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PXzN9aKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDECUKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXzN8qKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PXzN86KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDDbQqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX0cEKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PXz1CaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXzN9KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="img3" navigable="true">
+      <modelElement href="aaa.uml#_LCk6I6KcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX0cEqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX0cEaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PXvjkKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDECUaKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PXzN-aKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDECU6KcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXzN9qKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PXzN96KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDECUqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX0cFKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX0cE6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXzN-KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="img4" navigable="true">
+      <modelElement href="aaa.uml#_LClhMKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX0cFqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX0cFaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PXvjkaKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDEpYKKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PXz1AKKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDEpYqKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXzN-qKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PXzN-6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDEpYaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX0cGKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX0cF6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXzN_KKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="select" navigable="true">
+      <modelElement href="aaa.uml#_LClhMqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX1DIaKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX1DIKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PX24UKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDFQcKKcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PX24UaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDFQcqKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PX24UqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PX24U6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDFQcaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX24VKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX24VaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PX24VqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="btnArr" navigable="true">
+      <modelElement href="aaa.uml#_LCmvUaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX24V6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX24WKKcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PX3fYKKcEeyEXbnuiTJFeg" source="_PX4GcKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LDFQc6KcEeyEXbnuiTJFeg"/>
+    <stereotypes xmi:id="_PX3fYaKcEeyEXbnuiTJFeg" name="Reference">
+      <modelElement href="aaa.uml#_LDF3gKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PX3fYqKcEeyEXbnuiTJFeg" text=""/>
+    <sourceRole xmi:id="_PX3fY6KcEeyEXbnuiTJFeg" aggregationKind="NONE" name="">
+      <modelElement href="aaa.uml#_LDFQdKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX3fZKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX3fZaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PX3fZqKcEeyEXbnuiTJFeg" aggregationKind="NONE" name="noClick" navigable="true">
+      <modelElement href="aaa.uml#_LCnWYKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX3fZ6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX3faKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_PTZ2IKKcEeyEXbnuiTJFeg" sourceConnectionVisual="_PTbEQKKcEeyEXbnuiTJFeg" text="class MyThread30 extends Thread { int sec; public void run() { while (true) {&#xD;&#xA;&#x9; * try { Thread.sleep(1000); } catch (InterruptedException e) {&#xD;&#xA;&#x9; * e.printStackTrace(); } sec +=1; lbIn30.setText(&quot;&quot;+sec); if (sec==30) {&#xD;&#xA;&#x9; * if(beforeTurn == null || beforeTurn == player3) { beforeTurn = player1; }else&#xD;&#xA;&#x9; * if(beforeTurn == player1) { beforeTurn = player2; }else { beforeTurn =&#xD;&#xA;&#x9; * player3; } sec = 0; } pnNorth.repaint(); } } }" item="_PTiZAKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LC3OAaKcEeyEXbnuiTJFeg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PU_KgKKcEeyEXbnuiTJFeg" name="MyThread" associationsIn="_PVxNoKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_K_6AoKKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PU_KgaKcEeyEXbnuiTJFeg" position="158.0,36.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PU_KgqKcEeyEXbnuiTJFeg" name="StyledElement">
+      <modelElement href="aaa.uml#_K_6nsKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PU_Kg6KcEeyEXbnuiTJFeg" label="~"/>
+    <operations xmi:id="_PU_KhKKcEeyEXbnuiTJFeg" name="run">
+      <modelElement href="aaa.uml#_K_7OwKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PU_KhaKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PU_KhqKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PX4GcKKcEeyEXbnuiTJFeg" name="OmokSt" associationsOut="_PXY-QKKcEeyEXbnuiTJFeg _PXuVcKKcEeyEXbnuiTJFeg _PXu8gKKcEeyEXbnuiTJFeg _PXvjkKKcEeyEXbnuiTJFeg _PXvjkaKcEeyEXbnuiTJFeg _PX24UKKcEeyEXbnuiTJFeg _PX3fYKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_LAMUgKKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PX4GcaKcEeyEXbnuiTJFeg" position="444.0,202.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PX4GcqKcEeyEXbnuiTJFeg" name="LegacyStyledElement">
+      <modelElement href="aaa.uml#_LAM7kKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PX4Gc6KcEeyEXbnuiTJFeg" name="Annotations">
+      <modelElement href="aaa.uml#_LAQl8KKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PX4GdKKcEeyEXbnuiTJFeg" label="+"/>
+    <attributes xmi:id="_PX4GdaKcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/apple.png&quot;)" name="img1">
+      <modelElement href="aaa.uml#_LCkTEKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4GdqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4Gd6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GeKKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GeaKcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/blueberry.png&quot;)" name="img2">
+      <modelElement href="aaa.uml#_LCk6IaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4GeqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4Ge6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GfKKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GfaKcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/orange.png&quot;)" name="img3">
+      <modelElement href="aaa.uml#_LCk6I6KcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4GfqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4Gf6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GgKKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GgaKcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/watermelon.png&quot;)" name="img4">
+      <modelElement href="aaa.uml#_LClhMKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4GgqKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4Gg6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GhKKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GhaKcEeyEXbnuiTJFeg" defaultValue="new ArrayList&lt;JToggleButton>()" name="select">
+      <modelElement href="aaa.uml#_LClhMqKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PX4GhqKcEeyEXbnuiTJFeg" name="Generics">
+        <modelElement href="aaa.uml#_LCmIQKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PX4Gh6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4GiKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GiaKcEeyEXbnuiTJFeg" name="ArrayList">
+        <modelElement href="aaa.uml#_LB2hYaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GiqKcEeyEXbnuiTJFeg" defaultValue="0" name="cnt">
+      <modelElement href="aaa.uml#_LCmIQqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4Gi6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4GjKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GjaKcEeyEXbnuiTJFeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4GjqKcEeyEXbnuiTJFeg" name="btnArr">
+      <modelElement href="aaa.uml#_LCmvUaKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PX4Gj6KcEeyEXbnuiTJFeg" name="Array">
+        <modelElement href="aaa.uml#_LCmvU6KcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PX4GkKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4GkaKcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PX4GkqKcEeyEXbnuiTJFeg" name="JToggleButton">
+        <modelElement href="aaa.uml#_LB9PEaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PX4Gk6KcEeyEXbnuiTJFeg" name="noClick">
+      <modelElement href="aaa.uml#_LCnWYKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PX4GlKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PX4GlaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PX4GlqKcEeyEXbnuiTJFeg" name="JToggleButton">
+        <modelElement href="aaa.uml#_LB9PEaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PX4Gl6KcEeyEXbnuiTJFeg" name="OmokSt">
+      <modelElement href="aaa.uml#_LANioKKcEeyEXbnuiTJFeg"/>
+      <keywords xmi:id="_PX4GmKKcEeyEXbnuiTJFeg" keyword="create"/>
+      <stereotypes xmi:id="_PX4GmaKcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LAOJsaKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PX4GmqKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX4Gm6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PX4GnKKcEeyEXbnuiTJFeg">
+        <modelElement href="aaa.uml#_LAOJsKKcEeyEXbnuiTJFeg"/>
+        <type xmi:id="_PX4GnaKcEeyEXbnuiTJFeg" name="OmokSt">
+          <modelElement href="aaa.uml#_LAMUgKKcEeyEXbnuiTJFeg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PX4GnqKcEeyEXbnuiTJFeg" name="main" staticOperation="true">
+      <modelElement href="aaa.uml#_LAPX0KKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PX4Gn6KcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LAP-4aKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PX4GoKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PX4GoaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PX4GoqKcEeyEXbnuiTJFeg" name="args">
+        <modelElement href="aaa.uml#_LAP-4KKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PX4Go6KcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PX4GpKKcEeyEXbnuiTJFeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PVVv0KKcEeyEXbnuiTJFeg" name="Omok">
+    <modelElement href="aaa.uml#_K_yr4KKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PVVv0aKcEeyEXbnuiTJFeg" position="878.0,200.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_PVVv0qKcEeyEXbnuiTJFeg" keyword="sameFile"/>
+    <stereotypes xmi:id="_PVVv06KcEeyEXbnuiTJFeg" name="Annotations">
+      <modelElement href="aaa.uml#_K_1vMKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PVVv1KKcEeyEXbnuiTJFeg" label="~"/>
+    <attributes xmi:id="_PVVv1aKcEeyEXbnuiTJFeg" name="x">
+      <modelElement href="aaa.uml#_LCc-UKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PVVv1qKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PVVv16KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PVVv2KKcEeyEXbnuiTJFeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PVVv2aKcEeyEXbnuiTJFeg" name="y">
+      <modelElement href="aaa.uml#_LCdlYKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PVVv2qKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PVVv26KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PVVv3KKcEeyEXbnuiTJFeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PVVv3aKcEeyEXbnuiTJFeg" name="state">
+      <modelElement href="aaa.uml#_LCdlYaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PVVv3qKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PVVv36KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PVVv4KKcEeyEXbnuiTJFeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PVVv4aKcEeyEXbnuiTJFeg" name="Omok">
+      <modelElement href="aaa.uml#_LCKqcKKcEeyEXbnuiTJFeg"/>
+      <keywords xmi:id="_PVVv4qKcEeyEXbnuiTJFeg" keyword="create"/>
+      <stereotypes xmi:id="_PVVv46KcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LCLRhaKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PVVv5KKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PVVv5aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PVVv5qKcEeyEXbnuiTJFeg">
+        <modelElement href="aaa.uml#_LCLRhKKcEeyEXbnuiTJFeg"/>
+        <type xmi:id="_PVVv56KcEeyEXbnuiTJFeg" name="Omok">
+          <modelElement href="aaa.uml#_K_yr4KKcEeyEXbnuiTJFeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PVVv6KKcEeyEXbnuiTJFeg" name="x">
+        <modelElement href="aaa.uml#_LCKqcaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PVVv6aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PVVv6qKcEeyEXbnuiTJFeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PVVv66KcEeyEXbnuiTJFeg" name="y">
+        <modelElement href="aaa.uml#_LCLRgKKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PVVv7KKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PVVv7aKcEeyEXbnuiTJFeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_PVVv7qKcEeyEXbnuiTJFeg" name="image">
+        <modelElement href="aaa.uml#_LCLRgaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PVVv76KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PVVv8KKcEeyEXbnuiTJFeg" name="ImageIcon">
+          <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PYRvEKKcEeyEXbnuiTJFeg" name="SelectChk">
+    <modelElement href="aaa.uml#_LAOwwKKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PYRvEaKcEeyEXbnuiTJFeg" position="882.0,417.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PYRvEqKcEeyEXbnuiTJFeg" name="StyledElement">
+      <modelElement href="aaa.uml#_LAOwwaKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PYRvE6KcEeyEXbnuiTJFeg" label="~"/>
+    <operations xmi:id="_PYRvFKKcEeyEXbnuiTJFeg" name="actionPerformed">
+      <modelElement href="aaa.uml#_LCaiEKKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PYRvFaKcEeyEXbnuiTJFeg" name="LegacyStyledElement">
+        <modelElement href="aaa.uml#_LCaiEqKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PYRvFqKcEeyEXbnuiTJFeg" name="Annotations">
+        <modelElement href="aaa.uml#_LCbJIKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PYRvF6KcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PYRvGKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PYRvGaKcEeyEXbnuiTJFeg" name="e">
+        <modelElement href="aaa.uml#_LCaiEaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PYRvGqKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PYRvG6KcEeyEXbnuiTJFeg" name="ActionEvent">
+          <modelElement href="aaa.uml#_LB1TQKKcEeyEXbnuiTJFeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PTiZAKKcEeyEXbnuiTJFeg" comments="_PTZ2IKKcEeyEXbnuiTJFeg" targetConnectionVisual="_PTbEQKKcEeyEXbnuiTJFeg" name="myActionListener">
+    <modelElement href="aaa.uml#_K_8c4KKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PTiZAaKcEeyEXbnuiTJFeg" position="884.0,517.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PTiZAqKcEeyEXbnuiTJFeg" name="StyledElement">
+      <modelElement href="aaa.uml#_K_9D8KKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PTiZA6KcEeyEXbnuiTJFeg" label="~"/>
+    <operations xmi:id="_PTiZBKKcEeyEXbnuiTJFeg" name="actionPerformed">
+      <modelElement href="aaa.uml#_LCVCgKKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PTiZBaKcEeyEXbnuiTJFeg" name="LegacyStyledElement">
+        <modelElement href="aaa.uml#_LCVpkKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PTiZBqKcEeyEXbnuiTJFeg" name="Annotations">
+        <modelElement href="aaa.uml#_LCVpkaKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PTiZB6KcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PTiZCKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PTiZCaKcEeyEXbnuiTJFeg" name="e">
+        <modelElement href="aaa.uml#_LCVCgaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PTiZCqKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PTiZC6KcEeyEXbnuiTJFeg" name="ActionEvent">
+          <modelElement href="aaa.uml#_LB1TQKKcEeyEXbnuiTJFeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PWYRqaKcEeyEXbnuiTJFeg" name="OmokMain" associationsOut="_PVxNoKKcEeyEXbnuiTJFeg _PWFWsaKcEeyEXbnuiTJFeg _PWHy8KKcEeyEXbnuiTJFeg _PWK2QKKcEeyEXbnuiTJFeg _PWLdUKKcEeyEXbnuiTJFeg _PWMEYKKcEeyEXbnuiTJFeg _PWMEYaKcEeyEXbnuiTJFeg _PWUAMKKcEeyEXbnuiTJFeg _PWUnQKKcEeyEXbnuiTJFeg _PWVOUKKcEeyEXbnuiTJFeg _PWV1YKKcEeyEXbnuiTJFeg _PWWccKKcEeyEXbnuiTJFeg _PWXDgKKcEeyEXbnuiTJFeg _PWYRoKKcEeyEXbnuiTJFeg">
+    <modelElement href="aaa.uml#_K_tzYKKcEeyEXbnuiTJFeg"/>
+    <visualProperties xmi:id="_PWYRqqKcEeyEXbnuiTJFeg" position="15.0,203.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_PWYRq6KcEeyEXbnuiTJFeg" name="LegacyStyledElement">
+      <modelElement href="aaa.uml#_K_xdwKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_PWYRrKKcEeyEXbnuiTJFeg" name="Annotations">
+      <modelElement href="aaa.uml#_LABVYKKcEeyEXbnuiTJFeg"/>
+    </stereotypes>
+    <visibility xmi:id="_PWYRraKcEeyEXbnuiTJFeg" label="+"/>
+    <attributes xmi:id="_PWYRrqKcEeyEXbnuiTJFeg" defaultValue="new MyThread()" name="t">
+      <modelElement href="aaa.uml#_LCeMcKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRr6KcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRsKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRsaKcEeyEXbnuiTJFeg" name="MyThread">
+        <modelElement href="aaa.uml#_K_6AoKKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRsqKcEeyEXbnuiTJFeg" name="omok">
+      <modelElement href="aaa.uml#_LCeMcqKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PWYRs6KcEeyEXbnuiTJFeg" name="Array">
+        <modelElement href="aaa.uml#_LCezgKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PWYRtKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRtaKcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_PWYRtqKcEeyEXbnuiTJFeg" name="Omok">
+        <modelElement href="aaa.uml#_LCMfoKKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRt6KcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/main_g.png&quot;)" name="img">
+      <modelElement href="aaa.uml#_LCezgaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRuKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRuaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRuqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRu6KcEeyEXbnuiTJFeg" defaultValue="new ImageIcon(&quot;img/main_bg.png&quot;)" name="logo">
+      <modelElement href="aaa.uml#_LCgBoKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRvKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRvaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRvqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRv6KcEeyEXbnuiTJFeg" name="player1">
+      <modelElement href="aaa.uml#_LCgBoqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRwKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRwaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRwqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRw6KcEeyEXbnuiTJFeg" name="player2">
+      <modelElement href="aaa.uml#_LCgosKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRxKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRxaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRxqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRx6KcEeyEXbnuiTJFeg" name="player3">
+      <modelElement href="aaa.uml#_LCgosaKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRyKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRyaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRyqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRy6KcEeyEXbnuiTJFeg" defaultValue="null" name="beforeTurn">
+      <modelElement href="aaa.uml#_LCgosqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYRzKKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYRzaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYRzqKcEeyEXbnuiTJFeg" name="ImageIcon">
+        <modelElement href="aaa.uml#_LB3vgaKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYRz6KcEeyEXbnuiTJFeg" defaultValue="new JPanel()" name="pnNorth">
+      <modelElement href="aaa.uml#_LChPwKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR0KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR0aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR0qKcEeyEXbnuiTJFeg" name="JPanel">
+        <modelElement href="aaa.uml#_LB8oAKKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR06KcEeyEXbnuiTJFeg" defaultValue="new JLabel(&quot;0&quot;)" name="lbMin">
+      <modelElement href="aaa.uml#_LChPwqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR1KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR1aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR1qKcEeyEXbnuiTJFeg" name="JLabel">
+        <modelElement href="aaa.uml#_LB6y0aKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR16KcEeyEXbnuiTJFeg" defaultValue="new JLabel(&quot;:&quot;)" name="lb">
+      <modelElement href="aaa.uml#_LCh20KKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR2KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR2aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR2qKcEeyEXbnuiTJFeg" name="JLabel">
+        <modelElement href="aaa.uml#_LB6y0aKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR26KcEeyEXbnuiTJFeg" defaultValue="new JLabel(&quot;0&quot;)" name="lbSec">
+      <modelElement href="aaa.uml#_LCh20qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR3KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR3aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR3qKcEeyEXbnuiTJFeg" name="JLabel">
+        <modelElement href="aaa.uml#_LB6y0aKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR36KcEeyEXbnuiTJFeg" defaultValue="new JLabel(&quot;        &quot;)" name="lb2">
+      <modelElement href="aaa.uml#_LCid4aKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR4KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR4aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR4qKcEeyEXbnuiTJFeg" name="JLabel">
+        <modelElement href="aaa.uml#_LB6y0aKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR46KcEeyEXbnuiTJFeg" defaultValue="&quot;30&quot;" name="turnTime">
+      <modelElement href="aaa.uml#_LCjE8KKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR5KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR5aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR5qKcEeyEXbnuiTJFeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR56KcEeyEXbnuiTJFeg" defaultValue="new JLabel(turnTime)" name="lbIn30">
+      <modelElement href="aaa.uml#_LCjE8qKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR6KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR6aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR6qKcEeyEXbnuiTJFeg" name="JLabel">
+        <modelElement href="aaa.uml#_LB6y0aKcEeyEXbnuiTJFeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR66KcEeyEXbnuiTJFeg" defaultValue="10" name="trickCnt">
+      <modelElement href="aaa.uml#_LCjsAKKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR7KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR7aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR7qKcEeyEXbnuiTJFeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWYR76KcEeyEXbnuiTJFeg" defaultValue="true" name="endChk">
+      <modelElement href="aaa.uml#_LCjsAqKcEeyEXbnuiTJFeg"/>
+      <visibility xmi:id="_PWYR8KKcEeyEXbnuiTJFeg" label="~"/>
+      <cardinality xmi:id="_PWYR8aKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <type xmi:id="_PWYR8qKcEeyEXbnuiTJFeg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PWYR86KcEeyEXbnuiTJFeg" name="winPrint">
+      <modelElement href="aaa.uml#_K_-SEKKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PWYR9KKcEeyEXbnuiTJFeg" name="Annotations">
+        <modelElement href="aaa.uml#_K_-5IKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PWYR9aKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWYR9qKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PWYR96KcEeyEXbnuiTJFeg">
+        <modelElement href="aaa.uml#_K_-SEqKcEeyEXbnuiTJFeg"/>
+        <type xmi:id="_PWYR-KKcEeyEXbnuiTJFeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PWYR-aKcEeyEXbnuiTJFeg" name="s">
+        <modelElement href="aaa.uml#_K_-SEaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PWYR-qKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PWYR-6KcEeyEXbnuiTJFeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PWYR_KKcEeyEXbnuiTJFeg" name="main" staticOperation="true">
+      <modelElement href="aaa.uml#_K__gMKKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PWYR_aKcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LAAHQKKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PWYR_qKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWYR_6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PWYSAKKcEeyEXbnuiTJFeg" name="args">
+        <modelElement href="aaa.uml#_K__gMaKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PWYSAaKcEeyEXbnuiTJFeg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PWYSAqKcEeyEXbnuiTJFeg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PWY4sKKcEeyEXbnuiTJFeg" name="OmokMain">
+      <modelElement href="aaa.uml#_LCO74KKcEeyEXbnuiTJFeg"/>
+      <keywords xmi:id="_PWY4saKcEeyEXbnuiTJFeg" keyword="create"/>
+      <stereotypes xmi:id="_PWY4sqKcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LCPi8KKcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PWY4s6KcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWY4tKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PWY4taKcEeyEXbnuiTJFeg">
+        <modelElement href="aaa.uml#_LCO75KKcEeyEXbnuiTJFeg"/>
+        <type xmi:id="_PWY4tqKcEeyEXbnuiTJFeg" name="OmokMain">
+          <modelElement href="aaa.uml#_K_tzYKKcEeyEXbnuiTJFeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PWY4t6KcEeyEXbnuiTJFeg" name="al">
+        <modelElement href="aaa.uml#_LCO74aKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PWY4uKKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PWY4uaKcEeyEXbnuiTJFeg" name="ArrayList">
+          <modelElement href="aaa.uml#_LB2hYaKcEeyEXbnuiTJFeg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PWY4uqKcEeyEXbnuiTJFeg" name="checkWin">
+      <modelElement href="aaa.uml#_LCWQoaKcEeyEXbnuiTJFeg"/>
+      <stereotypes xmi:id="_PWY4u6KcEeyEXbnuiTJFeg" name="StyledElement">
+        <modelElement href="aaa.uml#_LCWQo6KcEeyEXbnuiTJFeg"/>
+      </stereotypes>
+      <visibility xmi:id="_PWY4vKKcEeyEXbnuiTJFeg" label="+"/>
+      <cardinality xmi:id="_PWY4vaKcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PWY4vqKcEeyEXbnuiTJFeg" name="e">
+        <modelElement href="aaa.uml#_LCWQoqKcEeyEXbnuiTJFeg"/>
+        <cardinality xmi:id="_PWY4v6KcEeyEXbnuiTJFeg" label="1" max="1" min="1"/>
+        <type xmi:id="_PWY4wKKcEeyEXbnuiTJFeg" name="Omok">
+          <modelElement href="aaa.uml#_LCMfoKKcEeyEXbnuiTJFeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
